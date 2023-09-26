@@ -1,0 +1,19 @@
+.cardcontainer{
+    height: 290px;
+    width: 250px;
+    background-color: #ffffff5a;
+}
+.heading-card{
+    font-size: 25px;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+.card-img{
+    height: 110px;
+    margin-left: 70px;
+}
+.card-report{
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+}

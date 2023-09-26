@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.app-heading{
+  margin-left: 50px;
+  font-size: 55px;
+  margin-top: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-search{
+  height: 41px;
+  width: 350px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 7px;
+  margin-left: 690px;
+  margin-top: 50px;
+  background-color: rgb(180, 209, 248);
+  border: 3px solid rgb(40, 67, 135);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+   flex-direction: row;
+}
+.slogen-line{
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: -20px;
+  font-weight: bold;
+  color: rgb(9, 55, 169);
+}
+.weather-city{
+  font-size: 38px;
+  margin-left: 0px;
+  margin-top: -150px;
+  font-weight: bold;
+}
+.temp-text{
+  margin-left: 0px;
+  margin-top: -35px;
+  font-size: 20px;
+}
+.current-temp{
+  font-size: 60px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.card-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 230px;
+  flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
