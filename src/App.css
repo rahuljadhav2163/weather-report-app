@@ -17,6 +17,7 @@
 .top-container{
   display: flex;
    flex-direction: row;
+   flex-wrap: wrap;
 }
 .slogen-line{
   font-size: 30px;
@@ -49,4 +50,40 @@
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 768px) {
+  .input-search{
+    height: 41px;
+    width: 350px;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(180, 209, 248);
+    border: 3px solid rgb(40, 67, 135);
+  }
+  .app-heading{
+    margin-left: 30px;
+    }
+    .slogen-line{
+      margin-left: 50px;
+      margin-top: 10px;
+    }
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 1300px){
+  .input-search{
+
+ height: 41px;
+  width: 350px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 7px;
+  margin: 0px;
+  margin-left: 450px;
+  margin-top: 50px;
+  background-color: rgb(180, 209, 248);
+  border: 3px solid rgb(40, 67, 135);
+  }
+}
   
